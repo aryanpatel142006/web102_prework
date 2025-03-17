@@ -39,7 +39,7 @@ function addGamesToPage(games) {
     }
 }
 
-addGamesToPage(GAMES_JSON);//idk what will come here
+addGamesToPage(GAMES_JSON);
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
 
@@ -95,7 +95,6 @@ function filterUnfundedOnly() {
     // use the function we previously created to add the unfunded games to the DOM
     addGamesToPage(unCompletedGoalList);
 }
-filterUnfundedOnly()
 
 // show only games that are fully funded
 function filterFundedOnly() {
@@ -114,7 +113,7 @@ function filterFundedOnly() {
     // use the function we previously created to add unfunded games to the DOM
 
 }
-filterFundedOnly();
+
 
 // show all games
 function showAllGames() {
